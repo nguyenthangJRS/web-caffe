@@ -1,0 +1,62 @@
+.about {
+    height: 1300px;
+    position: relative;
+}
+
+.aboutImg {
+    height: 500px;
+    position: absolute;
+    top: 800px;
+}
+
+.aboutImg img[alt="subImg"] {
+    width: 470px;
+    height: 380px;
+}
+
+.about img[alt="about"] {
+    position: absolute;
+    bottom: 23px;
+    right: 320px;
+}
+
+.table img[alt="about-fig"] {
+    width: 200pxs;
+}
+
+.table {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 135px;
+    display: flex;
+    background: white;
+    position: absolute;
+    height: 555px;
+}
+
+table {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    margin-left: 60px;
+}
+
+td {
+    border-bottom: 3px double #ccc;
+    line-height: 44px;
+}
+
+th {
+    min-width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 3px double #ccc;
+}
+
+.tow-row {
+    min-height: 91px;
+}
